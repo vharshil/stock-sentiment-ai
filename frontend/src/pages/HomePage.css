@@ -80,3 +80,29 @@
   color: var(--accent-blue);
   background: rgba(79, 142, 247, 0.08);
 }
+.results-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.results-header {
+  margin-bottom: 28px;
+}
+
+.results-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.results-company {
+  color: var(--accent-blue);
+}
+
+.results-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
