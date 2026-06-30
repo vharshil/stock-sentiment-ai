@@ -43,22 +43,21 @@ function HomePage() {
     <div className="home-page">
       <section className="hero-section">
         <div className="hero-content">
-          <p className="hero-eyebrow">Powered by Gemini AI + Live News</p>
-          <h1 className="hero-title">
-            Know what the{' '}
-            <span className="hero-highlight">market feels</span>
-            <br />
-            before you decide
-          </h1>
-          <p className="hero-subtitle">
-            Type any company name. We fetch live news and AI tells
-            you if sentiment is Bullish, Bearish or Neutral in seconds.
-          </p>
+          <p className="hero-eyebrow">India's smartest stock research platform</p>
+<h1 className="hero-title">
+  Research smarter,{' '}
+  <span className="hero-highlight">invest better</span>
+</h1>
+<p className="hero-subtitle">
+  Type any NSE, BSE or global stock. MarketPulse AI reads
+  live news, scores sentiment with Gemini AI, and gives you
+  a full research report — in seconds.
+</p>
           <SearchBar onSearch={handleSearch} />
           <div className="hero-examples">
             <p className="examples-label">Try searching:</p>
             <div className="example-chips">
-              {['Reliance', 'Tata Motors', 'Apple', 'Tesla', 'Infosys'].map((name) => (
+              {['Reliance', 'Tata Motors', 'Infosys', 'HDFC Bank', 'Zomato'].map((name) => (
                 <button key={name} className="chip" onClick={() => handleSearch(name)}>
                   {name}
                 </button>

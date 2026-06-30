@@ -52,7 +52,7 @@ function AIChatBox({ company }) {
         <span className="chatbox-icon">🤖</span>
         <div>
           <h3 className="chatbox-title">Ask AI about {company}</h3>
-          <p className="chatbox-subtitle">Powered by Gemini · Based on today's news</p>
+        <p className="chatbox-subtitle">MarketPulse AI · Powered by Gemini</p>
         </div>
       </div>
 

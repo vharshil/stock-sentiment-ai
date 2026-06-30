@@ -1,11 +1,6 @@
-# StockSense AI - Frontend
+# MarketPulse AI — Frontend
 
-React.js frontend for the StockSense AI stock sentiment analyser.
-
-## Tech Used
-- React 18
-- CSS Variables for theming
-- Recharts for data visualisation
+React.js frontend for the MarketPulse AI stock research platform.
 
 ## Run locally
 npm install

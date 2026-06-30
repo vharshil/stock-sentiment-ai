@@ -9,7 +9,7 @@ function Navbar() {
         <div className="navbar-brand">
           <span className="brand-icon">📈</span>
           <span className="brand-name">
-            StockSense<span className="brand-ai"> AI</span>
+            MarketPulse<span className="brand-ai"> AI</span>
           </span>
         </div>
 

@@ -1,21 +1,28 @@
-# StockSense AI — Stock News Sentiment Analyser
+# 📊 MarketPulse AI — Smart Stock Research Platform
 
-A full-stack web app that analyses stock market sentiment from live news using Google Gemini AI.
+An AI-powered stock research platform for Indian retail investors.
+Search any NSE, BSE or global stock and get instant sentiment
+analysis, live news, and a full AI research report.
 
-## What it does
-- Search any company name (e.g. Tata Motors, Apple, Infosys)
-- Fetches real-time news headlines
-- Gemini AI analyses sentiment: Bullish / Bearish / Neutral
-- Shows visual charts and scores
-- AI chat box to ask questions about the stock
+## Features
+- Live news sentiment analysis (Bullish / Bearish / Neutral)
+- Gemini AI powered research reports
+- ML-based trend prediction signal
+- Stock comparison tool
+- Search history dashboard
+- AI chat — ask anything about any stock
 
 ## Tech Stack
-- Frontend: React.js
-- Backend: Python + FastAPI
-- AI: Google Gemini API
+- Frontend: React.js, Recharts, CSS Variables
+- Backend: Python, FastAPI, REST API
+- AI: Google Gemini API, Prompt Engineering
+- ML: scikit-learn, yfinance
 - News: NewsAPI
-- Database: SQLite
+- Database: PostgreSQL (Supabase)
 - Deploy: Vercel + Render
 
 ## Project Status
-🚧 Currently building...
+🚧 Active development
+
+## Live Demo
+Coming soon after deployment
